@@ -1,5 +1,7 @@
 # shields-golint
 
+[![golint](https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Fshields-golint.appspot.com%2Fgithub.com%2Facomagu%2Fshields-golint)](https://go-lint.appspot.com/github.com/acomagu/shields-golint)
+
 The [Shields Endpoint](https://shields.io/endpoint/) for [http://go-lint.appspot.com/](http://go-lint.appspot.com/).
 
 ## Examples
