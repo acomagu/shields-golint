@@ -27,7 +27,7 @@ func genBadgeSource(nErr int) *BadgeSource {
 		return &BadgeSource{
 			SchemaVersion: 1,
 			Label:         "golint",
-			Message:       "no suggestions",
+			Message:       "passing",
 			Color:         "green",
 			IsError:       false,
 		}
