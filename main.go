@@ -13,6 +13,8 @@ import (
 	"golang.org/x/xerrors"
 )
 
+var port = os.Getenv("PORT")
+
 // BadgeSource represents the response of this application.
 type BadgeSource struct {
 	SchemaVersion int    `json:"schemaVersion"`
@@ -66,7 +68,7 @@ func main() {
 		w.Write(body)
 	})
 
-	if err := http.ListenAndServe(fmt.Sprintf(":%s", "8080"), nil); err != nil {
+	if err := http.ListenAndServe(fmt.Sprintf(":%s", port), nil); err != nil {
 		fmt.Fprintln(os.Stderr, err)
 	}
 }
